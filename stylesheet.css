@@ -44,7 +44,7 @@ body {
 	width: 300px;
 	left: 100px;
 }
-input {
+.middle input {
 	width: 500px;
 	position: absolute;
 	margin-top: -10px;
@@ -60,6 +60,18 @@ input[name="search"]:hover {
 	border: 1px solid blue;
 }
 
+/*
+input[name="gsearch"]:hover {
+	font-weight: bold;
+}
+input[name="lucky"]:hover {
+	font-weight: bold;
+}
+
+input[name="gsearch"]{
+	width: 140px;
+	height: 40px;
+}
 .buttons {
 	width: 320px;
 	height: 50px;
@@ -97,8 +109,46 @@ input[name="search"]:hover {
 .buttons p:hover {
 	color: black;
 }
+*/
+
+#search-buttons {
+	width: 270px;
+	margin: 0 auto 0 auto;
+	margin-top: -70px;
+	padding-top: -10px;
+	font-size: 13px;
+	font-weight: bold;
+	color:#8e8989;
+}
+
+#search-button {
+	font-family: arial;
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	border-radius: 2px;
+	float: left;
+	display: inline-block;
+	padding: 8px 10px;
+}
+
+#search-button:hover{
+	color:black;
+}
 
 
+#lucky-button {
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+	border-radius: 2px;
+	float: right;
+	display: inline-block;
+	padding: 8px 10px;
+	
+}
+
+#lucky-button:hover{
+	color:black;
+}
 
 
 #footer {
